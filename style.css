@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: pink;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.typing {
+  font-size: 14px;
+  color: black;
+  white-space: pre-wrap;
+  text-align: justify;
+  margin: 10px 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Animasi masuk */
+}
+
+.typing.visible {
+  opacity: 1;
+}
+
+.photo-container {
+  margin: 20px 0;
+}
+
+.photo-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
